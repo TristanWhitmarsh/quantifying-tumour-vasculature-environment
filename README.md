@@ -1,18 +1,7 @@
 
 # Quantifying the Tumour Vasculature Environment from CD-31 IHC Images Using Deep Learning Semantic Segmentation
 
-This repository contains the code accompanying the research paper **"Quantifying the tumour vasculature environment from CD-31 immunohistochemistry images of breast cancer using deep learning-based semantic segmentation"**. The repository provides the code for the deep learning models, image processing, and quantification algorithms discussed in the paper.
-
-## Overview
-
-The main goal of this project is to automatically quantify the tumour vasculature environment from CD-31 immunohistochemistry (IHC) images of breast cancer using semantic segmentation based on a U-Net architecture. The code extracts vascular parameters like density, area, circularity, and thickness from segmented images.
-
-## Features
-
-- **Deep Learning Models**: U-Net-based models trained to segment CD-31 IHC images.
-- **Custom Quantification Algorithms**: Extract various vascular parameters such as density and circularity.
-- **Preprocessing and Postprocessing**: Code to prepare IHC images and process segmentation outputs.
-- **Statistical Analysis**: Scripts for performing paired and unpaired statistical tests to evaluate the significance of measurements.
+This repository contains the code accompanying the research paper **"Quantifying the tumour vasculature environment from CD-31 immunohistochemistry images of breast cancer using deep learning-based semantic segmentation"**.
 
 ## Requirements
 
@@ -31,11 +20,9 @@ The main goal of this project is to automatically quantify the tumour vasculatur
 - **Requests 2.26.0**
 - **tqdm 4.62.3**
 
-Detailed library versions and dependencies are available in the `requirements.txt` file.
-
 ## Data
 
-Due to privacy concerns, the patient data used in the research is not publicly available. However, if you are interested in using the models or data, you can request access from the corresponding author.
+Due to privacy concerns, the patient data and model weights used in the research is not publicly available. However, if you are interested in using the models or data, you can request access from the corresponding author.
 
 ## License
 

@@ -17,11 +17,19 @@ The main goal of this project is to automatically quantify the tumour vasculatur
 ## Requirements
 
 - **Python 3.7**
-- **Keras 2.4.0**
 - **TensorFlow 2.4.4**
-- **NumPy, Pandas, Seaborn**
-- **SciPy** for statistical analysis
-- **Matplotlib** for visualizations
+- **Keras 2.4.0**
+- **Keras Preprocessing 1.1.2**
+- **NumPy 1.19.5**
+- **Pandas 1.3.4**
+- **Scikit-Image 0.18.3**
+- **Matplotlib 3.5.0**
+- **Seaborn 0.11.2**
+- **OpenCV 4.5.4.60**
+- **SciPy 1.7.1**
+- **PyQt5 5.15.6**
+- **Requests 2.26.0**
+- **tqdm 4.62.3**
 
 Detailed library versions and dependencies are available in the `requirements.txt` file.
 
@@ -48,10 +56,10 @@ Read the full license [here](https://creativecommons.org/licenses/by-nc/4.0/).
 If you use this code in your research, please cite the paper:
 
 ```
-@article{your_paper_citation,
+@article{whitmarsh2024,
   title={Quantifying the tumour vasculature environment from CD-31 immunohistochemistry images of breast cancer using deep learning-based semantic segmentation},
-  author={Whitmarsh, T., Cope, W., Carmona-Bozo, J., Manavaki, R., Sammut, S.-J., Woitek, R., Provenzano, E., Brown, E. L., Bohndiek, S. E., Gallagher, F. A., Caldas, C., Gilbert, F. J., & Markowetz, F.},
-  journal={N/A},
+  author={Whitmarsh, T. and Cope, W. and Carmona-Bozo, J. and Manavaki, R. and Sammut, S.-J. and Woitek, R. and Provenzano, E. and Brown, E. L. and Bohndiek, S. E. and Gallagher, F. A. and Caldas, C. and Gilbert, F. J. and Markowetz, F.},
+  journal={N/A, under review},
   year={2024},
   publisher={N/A}
 }

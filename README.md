@@ -1,5 +1,5 @@
 
-# Quantifying the Tumour Vasculature Environment from CD-31 IHC Images Using Deep Learning Semantic Segmentation
+# Quantifying the Tumour Vasculature Environment
 
 This repository contains the code accompanying the research paper **"Quantifying the tumour vasculature environment from CD-31 immunohistochemistry images of breast cancer using deep learning-based semantic segmentation"**.
 
